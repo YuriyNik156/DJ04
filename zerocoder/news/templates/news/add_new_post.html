@@ -8,42 +8,42 @@
 <h1>Страница для добавления новостей</h1>
 <div>
     <h2>Форма для добавления новостей</h2>
-<div class="container mt-5">
-  <div class="card shadow-lg">
-    <div class="card-header bg-primary text-white">
-      <h3 class="mb-0">Добавить новость</h3>
-    </div>
-    <div class="card-body">
-      <form method="post">
-        <div class="mb-3">
-          <label class="form-label">Заголовок новости</label>
-          <input type="text" class="form-control" placeholder="Введите заголовок">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Краткое описание</label>
-          <input type="text" class="form-control" placeholder="Введите краткое описание">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Текст новости</label>
-          <textarea class="form-control" rows="5" placeholder="Введите текст новости"></textarea>
-        </div>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label class="form-label">Дата</label>
-            <input type="date" class="form-control">
+  <div class="container mt-5">
+    <div class="card shadow-lg">
+      <div class="card-header bg-primary text-white">
+        <h3 class="mb-0">Добавить новость</h3>
+      </div>
+      <div class="card-body">
+        <form method="post">
+          <div class="mb-3">
+            <label class="form-label">Заголовок новости</label>
+            <input type="text" class="form-control" placeholder="Введите заголовок">
           </div>
-          <div class="col-md-6 mb-3">
-            <label class="form-label">Время</label>
-            <input type="time" class="form-control">
+          <div class="mb-3">
+            <label class="form-label">Краткое описание</label>
+            <input type="text" class="form-control" placeholder="Введите краткое описание">
           </div>
-        </div>
-        <div class="d-grid">
-          <button type="submit" class="btn btn-success">💥 Добавить новость</button>
-        </div>
-      </form>
+          <div class="mb-3">
+            <label class="form-label">Текст новости</label>
+            <textarea class="form-control" rows="5" placeholder="Введите текст новости"></textarea>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Дата</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Время</label>
+              <input type="time" class="form-control">
+            </div>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-success">💥 Добавить новость</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-</div>
 </div>
 
 {% endblock %}
