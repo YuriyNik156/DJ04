@@ -1,0 +1,41 @@
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+        }
+        aside {
+            width: 250px;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-right: 1px solid #dee2e6;
+        }
+        aside img {
+            display: block;
+            margin: 0 auto 10px;
+        }
+        aside span {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        aside ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        aside li {
+            margin-bottom: 10px;
+        }
+        aside a {
+            text-decoration: none;
+            color: #0d6efd;
+        }
+        aside a:hover {
+            text-decoration: underline;
+        }
+        main {
+            flex-grow: 1;
+            padding: 30px;
+        }
+    </style>
